@@ -61,12 +61,14 @@ header h1 {
     margin: 0 auto;
     padding: 10rem 0;
 }
+
 @media (min-width: 768px) {
     .form {
         padding: 5rem 0;
         width: 60rem;
     }
 }
+
 .form legend {
     font-size: 3.6rem;
     text-align: center;
@@ -111,12 +113,14 @@ header h1 {
     width: 100%;
     transition: background-color 300ms ease;
 }
+
 @media (min-width: 768px) {
     .form input[type="submit"] {
         display: block;
         padding: 1rem 5rem;
     }
 }
+
 .form input[type="submit"]:hover {
     background-color: #042a67;
     cursor: pointer;
@@ -168,6 +172,7 @@ header h1 {
 .two-columns :first-child {
     margin-bottom: 4rem;
 }
+
 @media (min-width: 768px) {
     .two-columns {
         flex-direction: row;
@@ -181,6 +186,7 @@ header h1 {
         margin-bottom: 0;
     }
 }
+
 .form input[type="text"].new-budget, 
 .form input[type="number"].new-budget {
     font-size: 2.8rem;
@@ -494,4 +500,7 @@ body .modal {
         width: 300px;
     }
    
+    .new-budget {
+        min-width: 20rem;
+    }
 }
